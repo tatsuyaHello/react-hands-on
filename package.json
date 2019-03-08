@@ -1,24 +1,17 @@
 {
-  "name": "react-hands-on",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "with-glamor",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "lint": "eslint pages components",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "fand <fand@gmork.in>",
-  "license": "MIT",
   "dependencies": {
-    "next": "4.2.3",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "glamor": "^2.20.24",
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
-  "devDependencies": {
-    "eslint": "^3.17.1",
-    "eslint-config-xo": "^0.17.0",
-    "eslint-config-xo-react": "^0.10.0",
-    "eslint-plugin-react": "^6.10.0"
-  }
+  "license": "ISC"
 }
